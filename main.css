@@ -36,9 +36,8 @@
 {
 	display: block;
   	margin-left: 20px;
-	margin-top: 20px;
+	margin-top: 10px;
   	margin-right: auto;
-  	width: 95%;
 }
 
 .image 
@@ -65,6 +64,11 @@ body
 	margin-top: -50px;
 	Color: black;	
 	font-size: 15px;
+}
+
+.gap {
+	padding-top: 10px;
+	padding-bottom: 10px
 }
 
 .column {
