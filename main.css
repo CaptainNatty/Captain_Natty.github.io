@@ -1,0 +1,81 @@
+/* CSS Document */
+.nav a.active
+{
+	color: white;
+}
+
+.top
+{
+	background-color: #1A1A1A;
+	overflow: hidden;
+}
+
+.nav
+{
+	background-color: #1A1A1A;
+	overflow: hidden;
+	text-align: right;
+	padding: 30px;
+	font-size: 25px;
+	float: right;
+}
+
+.nav a 
+{
+	text-decoration: none;
+	color: grey;
+	padding: 15px 32px;
+}
+
+.nav a:hover
+{
+	color: lightgrey;
+}
+
+.logo
+{
+	display: block;
+  	margin-left: 20px;
+	margin-top: 20px;
+  	margin-right: auto;
+  	width: 95%;
+}
+
+.image 
+{
+	float: left;
+}
+body
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+
+.title
+{
+	padding-left: 220px;
+	Color: black;	
+	font-size: 35px;
+}
+
+.job
+{
+	padding-left: 235px;
+	margin-top: -50px;
+	Color: black;	
+	font-size: 15px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
