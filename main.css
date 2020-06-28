@@ -14,8 +14,10 @@
 {
 	background-color: #1A1A1A;
 	overflow: hidden;
-	text-align: right;
-	padding: 30px;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
 	font-size: 25px;
 	float: right;
 }
@@ -48,27 +50,34 @@ body
 {
 	padding: 0px;
 	margin: 0px;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	background-color: lightgrey;
+}
+
+.titleinfo 
+{
+	float: left;
 }
 
 .title
 {
-	padding-left: 220px;
-	Color: black;	
+	Color: white;	
 	font-size: 35px;
+	margin-top: -35px;
+	padding-left: 20px;
 }
 
 .job
 {
-	padding-left: 235px;
-	margin-top: -50px;
-	Color: black;	
+	Color: white;
+	padding-left: 35px;
+	margin-top: -50px;	
 	font-size: 15px;
 }
 
 .gap {
-	padding-top: 10px;
-	padding-bottom: 10px
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .column {
