@@ -55,7 +55,7 @@ body
 	padding: 0px;
 	margin: 0px;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-	background-color: lightgrey;
+	background-color: black;
 }
 
 .titleinfo 
@@ -95,6 +95,7 @@ body
   float: left;
   width: 33.33%;
   text-align: center;
+  color: white;
 }
 
 .row:after {
